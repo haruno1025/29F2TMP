@@ -1,0 +1,25 @@
+------------------------------------------------------------------------
+--  ‘æ‚Uğ@‚±‚Ì‹K‘¥‚É‚¨‚¯‚é•’Ê—·‹q‰^’À‚ÍA‘Oğ‘æ‚P€‚Ì’è‚ß‚É‚æ‚èæÔ‚µ‚½ê‡“K—p‚·‚é‰^’À
+--        ‚ğ‚¢‚¤B
+------------------------------------------------------------------------
+
+class ‘æ‚P•Ò‘æ‚Uği‰^’Àj
+
+types
+	public ”N—î•Ê—·‹q‹æ•ªŒ^ = <‘ål>@| <¬l> | <—c™> | <“û™>;
+	public ƒƒgƒ = 
+	
+values
+-- TODO Define values here
+instance variables
+	public i”N—î•Ê—·‹q‹æ•ª : ”N—î•Ê—·‹q‹æ•ªŒ^;
+	public iæÔ‰w : set of ƒƒgƒ;
+	public i~Ô‰w : set of ƒƒgƒ;
+	public i‘ŠŒİ”­’… : set of ƒƒgƒ
+operations
+-- TODO Define operations here
+functions
+-- TODO Define functiones here
+traces
+-- TODO Define Combinatorial Test Traces here
+end ‘æ‚P•Ò‘æ‚Uği‰^’Àj
