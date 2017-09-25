@@ -1,0 +1,36 @@
+class ‚h‚bƒJ[ƒhæÔŒ”
+types
+-- TODO Define types here
+values
+-- TODO Define values here
+instance variables
+-- TODO Define instance variables here
+	protected iæÔ‰w : token;
+	protected i~Ô‰w : token;
+	
+operations
+-- TODO Define operations here
+	public ‚h‚bƒJ[ƒhæÔŒ” : () ==> ‚h‚bƒJ[ƒhæÔŒ”
+	‚h‚bƒJ[ƒhæÔŒ”() ==
+		atomic (
+			iæÔ‰w := mk_token("NULL"); 
+			i~Ô‰w := mk_token("NULL");
+		);
+	
+	public setæÔ‰w : token ==> ()
+	setæÔ‰w(a‰wƒiƒ“ƒoƒŠƒ“ƒO)@== iæÔ‰w := a‰wƒiƒ“ƒoƒŠƒ“ƒO;
+
+	public set~Ô‰w : token ==> ()
+	set~Ô‰w(a‰wƒiƒ“ƒoƒŠƒ“ƒO)@== i~Ô‰w := a‰wƒiƒ“ƒoƒŠƒ“ƒO;
+
+	public pure getæÔ‰w : () ==> token
+	getæÔ‰w() == return iæÔ‰w;
+
+	public pure get~Ô‰w : () ==> token
+	get~Ô‰w() == return i~Ô‰w;
+
+functions
+-- TODO Define functiones here
+traces
+-- TODO Define Combinatorial Test Traces here
+end ‚h‚bƒJ[ƒhæÔŒ”

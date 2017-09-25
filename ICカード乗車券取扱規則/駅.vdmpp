@@ -1,3 +1,29 @@
 ------------------------------------------------------------------------
---  ‰wclass
+--  ‰w
+--    Eƒƒgƒ‚Ì‰wî•ñ‚ğ•Û‚·‚é
 ------------------------------------------------------------------------
+class ‰w
+
+types
+	-- ‚È‚µ
+	
+values
+	-- ‚È‚µ
+		
+instance variables
+	-- instance variables‚É‚Í“ª‚Éi‚ğ‚Â‚¯‚é
+	public i‰wƒiƒ“ƒoƒŠƒ“ƒO: token;
+	
+operations
+	-- ˆø”‚É‚Í“ª‚Éa‚ğ‚Â‚¯‚é
+
+	public ‰w : ‰wƒiƒ“ƒoƒŠƒ“ƒO ==> ‰w
+	‰w(a‰wƒiƒ“ƒoƒŠƒ“ƒO) ==
+		atomic (
+			i‰wƒiƒ“ƒoƒŠƒ“ƒO := a‰wƒiƒ“ƒoƒŠƒ“ƒO;
+		);
+		
+	public pure get‰w–¼ : () ==> token
+	get‰w–¼() == return ‰wƒiƒ“ƒoƒŠƒ“ƒO; 
+	
+end ‰w

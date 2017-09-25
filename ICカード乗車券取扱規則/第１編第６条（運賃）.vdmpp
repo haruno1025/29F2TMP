@@ -6,20 +6,27 @@
 class ‘æ‚P•Ò‘æ‚Uği‰^’Àj
 
 types
-	public ”N—î•Ê—·‹q‹æ•ªŒ^ = <‘ål>@| <¬l> | <—c™> | <“û™>;
-	public ƒƒgƒ = 
+--	public ”N—î•Ê—·‹q‹æ•ªŒ^ = <‘ål>@| <¬l> | <—c™> | <“û™>;
 	
 values
 -- TODO Define values here
+
 instance variables
-	public i”N—î•Ê—·‹q‹æ•ª : ”N—î•Ê—·‹q‹æ•ªŒ^;
-	public iæÔ‰w : set of ƒƒgƒ;
-	public i~Ô‰w : set of ƒƒgƒ;
-	public i‘ŠŒİ”­’… : set of ƒƒgƒ
+--	public i”N—î•Ê—·‹q‹æ•ª : ”N—î•Ê—·‹q‹æ•ªŒ^;
+--	public iæÔ‰w : set of ƒƒgƒ;
+--	public i~Ô‰w : set of ƒƒgƒ;
+--	public i‘ŠŒİ”­’… : set of ƒƒgƒ
+
 operations
 -- TODO Define operations here
+	public pure get‰^’À : token * token ==> nat1
+	get‰^’À(aæÔ‰w, b~Ô‰w) ==
+		 is not yet specified
+
 functions
 -- TODO Define functiones here
+
 traces
 -- TODO Define Combinatorial Test Traces here
+
 end ‘æ‚P•Ò‘æ‚Uği‰^’Àj
