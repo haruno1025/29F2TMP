@@ -17,13 +17,13 @@ instance variables
 operations
 	-- ˆø”‚É‚Í“ª‚Éa‚ğ‚Â‚¯‚é
 
-	public ‰w : ‰wƒiƒ“ƒoƒŠƒ“ƒO ==> ‰w
+	public ‰w : token ==> ‰w
 	‰w(a‰wƒiƒ“ƒoƒŠƒ“ƒO) ==
 		atomic (
 			i‰wƒiƒ“ƒoƒŠƒ“ƒO := a‰wƒiƒ“ƒoƒŠƒ“ƒO;
 		);
 		
 	public pure get‰w–¼ : () ==> token
-	get‰w–¼() == return ‰wƒiƒ“ƒoƒŠƒ“ƒO; 
+	get‰w–¼() == return i‰wƒiƒ“ƒoƒŠƒ“ƒO; 
 	
 end ‰w
